@@ -29,9 +29,17 @@ export default {
       },
     },
     {
-      name: 'logo',
-      title: 'Logo',
+      name: 'logo1',
+      title: 'Logo 1',
       type: 'image',
+      options: {
+        hotspot: true,
+      },
+    },
+    {
+      name: "logo2",
+      title: "Logo 2",
+      type: "image",
       options: {
         hotspot: true,
       },
