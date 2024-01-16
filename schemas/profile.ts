@@ -21,6 +21,11 @@ export default {
       type: 'blockContent',
     },
     {
+      name: 'email',
+      title: 'Email',
+      type: 'string',
+    },
+    {
       name: 'avatar',
       title: 'Avatar',
       type: 'image',
