@@ -24,6 +24,11 @@ export default {
                     title: 'Body',
                     type: 'text',
                 },
+                {
+                    name: 'avatar',
+                    title: 'Avatar',
+                    type: 'image',
+                },
             ],
         },
         {
