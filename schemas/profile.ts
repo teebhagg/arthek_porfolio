@@ -18,7 +18,19 @@ export default {
     {
       name: 'bio',
       title: 'Bio',
-      type: 'blockContent',
+      type: 'object',
+      fields: [
+        {
+          name: 'title',
+          title: 'Title',
+          type: 'string',
+        },
+        {
+          name: 'body',
+          title: 'Body',
+          type: 'blockContent',
+        },
+      ],
     },
     {
       name: 'email',
@@ -32,6 +44,19 @@ export default {
       options: {
         hotspot: true,
       },
+    },
+    {
+      name: 'images',
+      title: 'Images',
+      type: 'array',
+      of: [
+        {
+          type: 'image',
+          options: {
+            hotspot: true,
+          },
+        },
+      ],
     },
     {
       name: 'logo1',
